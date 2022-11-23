@@ -1,0 +1,12 @@
+list=[1,9,5,2,8]
+for values in list:
+    print(values)
+list=[1,9,5,2,8]
+list.sort()
+print("in ascending order")
+for values in list:
+    print(values)
+list.sort(reverse=True)
+print("in decending order")
+for values in list:
+    print(values)

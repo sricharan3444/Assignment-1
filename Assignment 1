@@ -1,0 +1,19 @@
+a=int(input("Enter the value of a:"))
+b=int(input("Enter the value of b:"))
+op =input("Enter the operator:")
+if (op=="+"):
+    print("addition=",a+b)
+elif (op =="-"):
+    print("Subtraction=",a-b)
+elif (op=="*"):
+    print("multiplication=",a*b)
+elif (op=="/"):
+    print("division=",a/b)
+elif (op=="//"):
+    print("integer division=",a//b)
+elif (op=="**"):
+    print("exponent=",a**b)
+elif (op=="%"):
+    print("modulo=",a%b)
+else:
+    print("Enter valid input")
